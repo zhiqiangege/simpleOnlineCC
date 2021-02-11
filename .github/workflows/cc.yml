@@ -28,6 +28,7 @@ jobs:
       env:
           THREAD: ${{ secrets.THREAD }}
           URL: ${{ secrets.URL }} 
+          PROXY: ${{ secrets.PROXY }}  
       run: |
         chmod 777 main
         ./main
