@@ -11,9 +11,17 @@
 
 2 设置secrets
 
-具体设置方法已放在图片上
+具体设置方法已放在图片上，如果图片加载不出来那就看文字说明
 
-![](https://fimg.ml/i/2020/11/29/udv3qj.png)
+![](https://fimg.tk/storage1/d51feb944102fd6cb4e7b014ac2bf1d7.png)
+
+三个机密，
+
+【可选】一个叫做PROXIY，存放一个URL，访问这个URL会出现HTTP代理，一行一个
+
+【必须】叫做URL，填写你要攻击的URL
+
+【必须】叫做THREAD，填写最大线程数，建议三位数
 
 3 随便在main分支里修改一个文件，别把yml文件和主程序搞死就行
 
